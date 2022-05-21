@@ -16,7 +16,6 @@ chrome.storage.sync.get(['recValue', 'relValue', 'comValue'], function (result) 
 });
 
 chrome.storage.onChanged.addListener(function (changes, namespace) {
-    if (tab.indexOf("https://www.youtube.com/") === 0) {
         for (let [key, {
                 oldValue,
                 newValue
@@ -29,5 +28,4 @@ chrome.storage.onChanged.addListener(function (changes, namespace) {
                 com.style.display = (newValue) ? 'none' : 'initial';
             }
         }
-    }
 });
