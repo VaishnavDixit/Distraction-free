@@ -2,7 +2,7 @@
     "name": "Distraction free: Hide YouTube content",
     "version": "1.1.2",
     "manifest_version": 3,
-    "description": "Increase your productivity by hiding the catchy YouTube content, and keep yourself productive and distraction free!",
+    "description": "Get a timer in the browser itself and track your time usage!",
     "action": {
         "default_title": "Be productive!",
         "default_popup": "/html/popup.html"
