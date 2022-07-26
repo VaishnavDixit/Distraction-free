@@ -1,6 +1,6 @@
 {
 	"name": "Distraction free: Hide YouTube content",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"manifest_version": 3,
 	"description": "Hide the YouTube content and be distraction free!",
 	"action": {
@@ -19,9 +19,7 @@
 		}
 	],
 	"icons": {
-		"16": "/img/icon16.png",
 		"32": "/img/icon32.png",
-		"48": "/img/icon48.png",
 		"64": "/img/icon64.png",
 		"128": "/img/icon128.png"
 	},
